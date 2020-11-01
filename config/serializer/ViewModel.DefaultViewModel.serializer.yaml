@@ -1,0 +1,4 @@
+App\UserInterface\ViewModel\DefaultViewModel:
+  attributes:
+    something:
+      groups: ['default']

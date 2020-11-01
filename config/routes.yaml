@@ -1,3 +1,8 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+get_something:
+   path: /api/something
+   methods: GET
+   controller: App\UserInterface\Controller\DefaultController
+send_something:
+   path: /api/something
+   methods: POST
+   controller: App\UserInterface\Controller\SendSomethingController
